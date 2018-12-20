@@ -1,6 +1,6 @@
 /*body {
   background-color: $input-gray;
-}
+}*/
 
 img {
   max-width: 100%;
@@ -9,18 +9,34 @@ img {
 
 @font-face {
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "Fira Sans";
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
+  src: url("../fonts/firasansregular.woff2") format("woff2"), url("../fonts/firasansregular.woff") format("woff");
 }
 
 @font-face {
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "Fira Sans";
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff");
+  src: url("../fonts/firasansbold.woff2") format("woff2"), url("../fonts/firasansbold.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -40,4 +56,4 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-*/
+
