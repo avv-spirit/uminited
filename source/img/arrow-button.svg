@@ -1,0 +1,15 @@
+<svg id="arrow_copy" data-name="arrow copy" xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36">
+<defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 4px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M962.007,1743v30" transform="translate(-950 -1741)"/>
+  <path class="cls-1" d="M968,1766.5l-7.024,8.5" transform="translate(-950 -1741)"/>
+  <path id="Shape_2_copy" data-name="Shape 2 copy" class="cls-1" d="M959.463,1774.89l-7.451-8.39" transform="translate(-950 -1741)"/>
+</svg>
