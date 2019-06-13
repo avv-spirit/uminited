@@ -1,0 +1,23 @@
+.main-nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: 0 auto;
+
+  outline: 1px solid red;
+}
+
+.main-nav__title {
+  display: flex;
+  flex-direction: column;
+
+  outline: 1px solid red;
+}
+
+.main-nav__contact {
+  display: flex;
+  flex-direction: column;
+
+  outline: 1px solid red;
+}
