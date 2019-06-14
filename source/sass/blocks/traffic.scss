@@ -1,0 +1,37 @@
+.traffic {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  width: 1200px;
+  min-height: 770px;
+
+  color: $light-black;
+
+  background-image: url("../../img/webapps-back.png");
+  background-position: 50% 0;
+  background-size: auto;
+  background-repeat: no-repeat;
+
+  outline: 1px solid red;
+}
+
+.traffic__title {
+  color: $white;
+}
+
+.traffic__description {
+  color: $light-black;
+}
+
+@media (max-width: $tablet-width) {
+  .traffic {
+    width: 798px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .traffic {
+    width: 320px;
+  }
+}

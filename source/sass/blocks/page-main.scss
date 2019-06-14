@@ -1,0 +1,22 @@
+.page-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 1200px;
+
+  z-index: 0;
+  outline: 1px solid red;
+}
+
+@media (max-width: $tablet-width) {
+  .page-main {
+    width: 798px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page-main {
+    width: 320px;
+  }
+}

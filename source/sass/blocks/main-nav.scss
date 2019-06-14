@@ -1,8 +1,8 @@
 .main-nav {
-  position: relative;
   display: flex;
   flex-direction: row;
   width: 1200px;
+  min-height: 107px;
   margin: 0 auto;
 
   outline: 1px solid red;
@@ -10,14 +10,30 @@
 
 .main-nav__title {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 27px;
+  width: 212px;
 
+  color: $light-black;
+
+  background-color: $nav-orange;
   outline: 1px solid red;
 }
 
 .main-nav__contact {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 27px;
+  width: 212px;
 
+  color: $white;
+
+  background-color: $nav-coral;
   outline: 1px solid red;
 }
