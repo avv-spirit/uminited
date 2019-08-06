@@ -1,0 +1,23 @@
+.smart-targeting {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+  width: 1920px;
+
+  background-color: grey;
+  outline: 1px solid red;
+}
+
+/*@media (max-width: $tablet-width) {
+  .page-header {
+  }
+}*/
+
+.smart-targeting__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+  width: 970px;
+}

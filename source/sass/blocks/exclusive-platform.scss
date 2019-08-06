@@ -1,0 +1,37 @@
+.exclusive-platform {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+  width: 970px;
+  min-height: 500px;
+  outline: 1px solid red;
+}
+
+/*@media (max-width: $tablet-width) {
+  .page-header {
+  }
+}*/
+
+.exclusive-platform__wrapper-text {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  width: 460px;
+}
+
+.exclusive-platform__title {
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+.exclusive-platform__pluses {
+  margin-left: 50px;
+}
+
+.exclusive-platform__image {
+  display: flex;
+  order: 2;
+  width: 477px;
+}
+
