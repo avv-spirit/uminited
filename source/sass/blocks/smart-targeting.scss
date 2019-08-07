@@ -5,7 +5,7 @@
 
   width: 1920px;
 
-  background-color: grey;
+  background-color: $smart-background;
   outline: 1px solid red;
 }
 
@@ -16,8 +16,26 @@
 
 .smart-targeting__wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0 auto;
 
   width: 970px;
+
+  outline: 1px solid red;
+}
+
+.smart-targeting__image-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.smart-targeting__image {
+  display: flex;
+  flex-direction: row;
+
+  width: 453px;
+}
+
+.smart-targeting__wrapper-table {
+
 }
