@@ -37,5 +37,28 @@
 }
 
 .smart-targeting__wrapper-table {
+  display: flex;
+  flex-direction: column;
+}
 
+.smart-targeting__table {
+  border-spacing: 0;
+}
+
+.smart-targeting__table-title td {
+  padding: 15px;
+
+  border-right: 1px solid #5dcecf;
+  border-bottom: 1px solid #5dcecf;
+
+  text-align: center;
+  font-weight: bold;
+}
+
+.smart-targeting__table-description td {
+  padding: 15px;
+
+  border-right: 1px solid #5dcecf;
+
+  text-align: center;
 }
