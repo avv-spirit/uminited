@@ -9,11 +9,6 @@
   outline: 1px solid red;
 }
 
-/*@media (max-width: $tablet-width) {
-  .page-header {
-  }
-}*/
-
 .smart-targeting__wrapper {
   display: flex;
   flex-direction: column;
@@ -31,9 +26,16 @@
 
 .smart-targeting__image {
   display: flex;
-  flex-direction: row;
 
-  width: 453px;
+  width: 452px;
+}
+
+.smart-targeting-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+
+  width: 470px;
 }
 
 .smart-targeting__wrapper-table {

@@ -1,0 +1,34 @@
+.guidance-security {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+  width: 1920px;
+
+  outline: 1px solid red;
+}
+
+.guidance-security__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+  width: 970px;
+
+  outline: 1px solid red;
+}
+
+.guidance-security__image {
+  display: flex;
+  order: 2;
+
+  width: 470px;
+}
+
+.guidance-security__text {
+  display: flex;
+  flex-direction: column;
+
+  order: 1;
+  width: 470px;
+}

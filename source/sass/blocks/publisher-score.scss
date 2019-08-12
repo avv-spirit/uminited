@@ -1,0 +1,38 @@
+.publisher-score {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+  width: 1920px;
+
+  outline: 1px solid red;
+}
+
+.publisher-score__wrapper {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0 auto;
+
+  width: 970px;
+
+  outline: 1px solid red;
+}
+
+.publisher-score__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+  width: 470px;
+}
+
+.publisher-score__image {
+  display: flex;
+
+  margin-top: 30px;
+  margin-bottom: 25px;
+
+  width: 433px;
+}
