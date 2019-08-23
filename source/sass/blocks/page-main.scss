@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: flex-start;
 
-  width: 1920px;
+  width: auto;
+  /*margin: 0 auto;*/
 
   z-index: 0;
   outline: 1px solid red;
@@ -11,7 +12,7 @@
 
 @media (max-width: $tablet-width) {
   .page-main {
-    width: 798px;
+    width: auto;
   }
 }
 

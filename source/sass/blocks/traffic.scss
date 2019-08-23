@@ -3,9 +3,9 @@
   flex-direction: row;
   justify-content: flex-start;
 
-  width: 1920px;
+  width: auto;
   min-height: 770px;
-
+  /*margin: 0 auto;*/
   color: $light-black;
 
   background-image: url("../../img/webapps-back.png");
@@ -14,6 +14,16 @@
   background-repeat: no-repeat;
 
   outline: 1px solid red;
+}
+
+.traffic__wrapper-get {
+  margin: 0 auto;
+  width: 470px;
+}
+
+.traffic__wrapper-sell {
+  margin: 0 auto;
+  width: 470px;
 }
 
 .traffic__title {

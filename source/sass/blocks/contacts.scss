@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 
-  width: 1920px;
+  width: auto;
 
   outline: 1px solid red;
 }
@@ -55,4 +55,54 @@
   display: flex;
   margin: 0 auto;
   padding: 25px;
+}
+
+.contacts__button-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacts__submit {
+  width: 150px;
+  height: 37px;
+
+  margin: 0 auto;
+  margin-top: 24px;
+
+  background-color: $nav-orange;
+  border: none;
+  text-transform: uppercase;
+}
+
+.contacts__submit-text {
+  text-align: center;
+}
+
+.contacts__reg-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-bottom: 83px;
+}
+
+.contacts__login {
+  margin-right: 15px;
+
+  width: 132px;
+  height: 37px;
+
+  border: 1px solid $nav-orange;
+  background-color: transparent;
+}
+
+.contacts__register {
+  margin-left: 15px;
+
+  width: 132px;
+  height: 37px;
+
+  border: 1px solid $nav-orange;
+  background-color: transparent;
 }
