@@ -23,10 +23,16 @@
 }
 
 .contacts__title {
+  margin-top: 41px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .contacts__feedback-text {
+  width: 515px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
   text-align: center;
 }
 
@@ -48,19 +54,49 @@
   flex-direction: row;
   justify-content: center;
 
-  padding: 20px;
+  padding: 0;
+}
+
+.contacts__input-name {
+  border: none;
+  border-radius: 45px;
+  margin: 10px;
+  height: 37px;
+  width: 243px;
+  padding-left: 15px;
+}
+
+.contacts__input-email {
+  border: none;
+  border-radius: 45px;
+  margin: 10px;
+  height: 37px;
+  width: 243px;
+  padding-left: 15px;
+}
+
+.contacts__input-message {
+  margin: 13px;
+  padding-left: 15px;
+
+  height: 186px;
+  width: 515px;
+
+  border: none;
+  border-radius: 15px;
 }
 
 .contacts__form-message {
   display: flex;
   margin: 0 auto;
-  padding: 25px;
+  padding: 0;
 }
 
 .contacts__button-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 65px;
 }
 
 .contacts__submit {
@@ -70,7 +106,9 @@
   margin: 0 auto;
   margin-top: 24px;
 
+  cursor: pointer;
   background-color: $nav-orange;
+  border-radius: 45px;
   border: none;
   text-transform: uppercase;
 }
@@ -93,7 +131,9 @@
   width: 132px;
   height: 37px;
 
+  cursor: pointer;
   border: 1px solid $nav-orange;
+  border-radius: 45px;
   background-color: transparent;
 }
 
@@ -103,6 +143,8 @@
   width: 132px;
   height: 37px;
 
+  cursor: pointer;
   border: 1px solid $nav-orange;
+  border-radius: 45px;
   background-color: transparent;
 }

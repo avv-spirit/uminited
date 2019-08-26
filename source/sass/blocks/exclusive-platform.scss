@@ -18,14 +18,15 @@
   flex-direction: row;
   margin: 0 auto;
 
-  outline: 1px solid green;
+  outline: 1px solid red;
 }
 
 .exclusive-platform__wrapper-text {
   display: flex;
   flex-direction: column;
   order: 1;
-  width: 460px;
+  width: 455px;
+  margin-left: 15px;
 }
 
 .exclusive-platform__title {
@@ -40,5 +41,5 @@
 .exclusive-platform__image {
   display: flex;
   order: 2;
-  width: 477px;
+  width: 500px;
 }

@@ -16,6 +16,17 @@
   outline: 1px solid red;
 }
 
+.traffic__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+
+  width: 970px;
+
+  outline: 1px solid red;
+}
+
 .traffic__wrapper-get {
   margin: 0 auto;
   width: 470px;
