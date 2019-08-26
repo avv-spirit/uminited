@@ -12,7 +12,32 @@
 }
 
 .page-footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
   margin: 0 auto;
+}
+
+.page-footer__address {
+  margin-bottom: 0;
+}
+
+.page-footer__develop {
+  display: flex;
+  justify-content: center;
+
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.page-footer__develop pre {
+  margin: 0;
+}
+
+.page-footer__develop a {
+  color: $white;
+  text-decoration: none;
 }
 
 /*@media (max-width: $tablet-width) {
