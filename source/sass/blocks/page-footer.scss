@@ -15,6 +15,21 @@
   margin: 0 auto;
 }
 
+.page-footer__address {
+  margin-bottom: 5px;
+}
+
+.page-footer__develop a {
+  color: $white;
+  text-decoration: none;
+}
+
+.page-footer__develop pre {
+  margin-top: 0;
+  font-size: 12px;
+  text-align: center;
+}
+
 /*@media (max-width: $tablet-width) {
   .page-header {
   }

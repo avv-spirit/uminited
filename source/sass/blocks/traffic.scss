@@ -5,11 +5,11 @@
 
   width: auto;
   min-height: 770px;
-  /*margin: 0 auto;*/
+
   color: $light-black;
 
   background-image: url("../../img/webapps-back.png");
-  background-position: 50% 0;
+  background-position: 50% -95px;
   background-size: auto;
   background-repeat: no-repeat;
 
@@ -28,13 +28,58 @@
 }
 
 .traffic__wrapper-get {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 120px;
+  margin-right: 15px;
+  margin-left: 15px;
   width: 470px;
 }
 
+.traffic__wrapper-get h2 {
+  margin: 0;
+  padding-right: 110px;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.traffic__wrapper-get p {
+  margin-top: 30px;
+  padding-right: 55px;
+
+  font-size: $text-traffic;
+  text-align: left;
+  line-height: 20px;
+}
+
 .traffic__wrapper-sell {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 120px;
+  margin-right: 15px;
+  margin-left: 15px;
   width: 470px;
+}
+
+.traffic__wrapper-sell h2 {
+  margin: 0;
+
+  font-size: 44px;
+  line-height: 50px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.traffic__wrapper-sell p {
+  margin-top: 30px;
+  padding-left: 55px;
+
+  font-size: $text-traffic;
+  text-align: right;
+  line-height: 20px;
 }
 
 .traffic__title {
