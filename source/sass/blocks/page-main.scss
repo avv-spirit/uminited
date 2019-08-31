@@ -12,12 +12,14 @@
 
 @media (max-width: $tablet-width) {
   .page-main {
-    width: auto;
+    width: 768px;
   }
 }
 
 @media (max-width: $mobile-width) {
   .page-main {
+    display: flex;
+    flex-direction: column;
     width: 320px;
   }
 }

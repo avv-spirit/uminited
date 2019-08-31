@@ -5,11 +5,31 @@
   width: auto;
 
   box-shadow: 0 10px 65px 0 #2b2929;
-  background: linear-gradient(to right, $nav-orange 50%, $nav-coral 50%);
+  /*background-image: linear-gradient(to right, $nav-orange 50%, $nav-coral 50%);*/
   z-index: 1;
 }
 
-/*@media (max-width: $tablet-width) {
-  .page-header {
+@media (max-width: $desktop-width) {
+  .body-wrapper {
+    width: auto;
   }
-}*/
+}
+
+@media (max-width: $tablet-width) {
+  .body-wrapper {
+    width: 768px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page-header {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+
+    background-color: $nav-orange;
+    background-image: url("../../img/back-mobile.png");
+    background-position: 30% 0;
+    background-size: 100%;
+  }
+}

@@ -34,7 +34,25 @@
   text-align: center;
 }
 
-/*@media (max-width: $tablet-width) {
-  .page-header {
+/*@media (max-width: $desktop-width) {
+  .page-footer {
   }
 }*/
+
+@media (max-width: $tablet-width) {
+  .page-footer__container {
+    width: auto;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page-footer {
+    flex-direction: column;
+  }
+
+  .page-footer__container {
+    width: 320px;
+    margin: 0;
+    text-align: center;
+  }
+}
