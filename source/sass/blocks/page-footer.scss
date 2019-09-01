@@ -41,18 +41,19 @@
 
 @media (max-width: $tablet-width) {
   .page-footer__container {
-    width: auto;
+    width: 768px;
   }
 }
 
 @media (max-width: $mobile-width) {
   .page-footer {
+    width: auto;
     flex-direction: column;
   }
 
   .page-footer__container {
     width: 320px;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
   }
 }

@@ -21,7 +21,7 @@
   align-items: flex-start;
 
   padding-left: 15px;
-  width: 470px;
+  width: 485px;
   background-color: $nav-orange;
 }
 
@@ -32,8 +32,8 @@
   align-items: flex-end;
 
   padding-right: 15px;
-  width: 470px;
-  background-color: $nav-coral;
+  width: 485px;
+  /*background-color: $nav-coral*/
 }
 
 .main-nav__web {
@@ -65,7 +65,7 @@
   text-decoration: none;
 }
 
-@media (max-width: $desktop-width) {
+/*@media (max-width: $desktop-width) {
   .main-nav {
     display: flex;
     flex-direction: row;
@@ -132,7 +132,7 @@
     color: $white;
     text-decoration: none;
   }
-}
+}*/
 
 @media (max-width: $tablet-width) {
   .main-nav {

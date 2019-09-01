@@ -5,19 +5,19 @@
   width: auto;
 
   box-shadow: 0 10px 65px 0 #2b2929;
-  /*background-image: linear-gradient(to right, $nav-orange 50%, $nav-coral 50%);*/
+  background-image: linear-gradient(to right, $nav-orange 50%, $nav-coral 50%);
   z-index: 1;
 }
 
-@media (max-width: $desktop-width) {
+/*@media (max-width: $desktop-width) {
   .body-wrapper {
     width: auto;
   }
-}
+}*/
 
 @media (max-width: $tablet-width) {
   .body-wrapper {
-    width: 768px;
+    width: auto;
   }
 }
 
@@ -25,7 +25,7 @@
   .page-header {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: auto;
 
     background-color: $nav-orange;
     background-image: url("../../img/back-mobile.png");

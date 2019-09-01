@@ -90,11 +90,11 @@
   color: $light-black;
 }
 
-@media (max-width: $desktop-width) {
+/*@media (max-width: $desktop-width) {
   .traffic {
     width: auto;
   }
-}
+}*/
 
 @media (max-width: $tablet-width) {
   .traffic {
@@ -112,21 +112,23 @@
     flex-direction: column;
     justify-content: flex-start;
 
-    width: 320px;
+    width: auto;
     min-height: 480px;
 
     color: $light-black;
 
-    background-image: url("../../img/back-mobile.png");
+    background: linear-gradient(180deg, $nav-orange 40%, $nav-coral 90%);
+    /*background-image: url("../../img/back-mobile.png");
     background-position: 40% -95px;
     background-size: 103%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
   }
 
   .traffic__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex-grow: 1;
     margin: 0 auto;
 
     width: 320px;
@@ -152,7 +154,7 @@
   }
 
   .traffic__wrapper-get p {
-    margin-top: 5px;
+    margin-top: 20px;
     padding-right: 0;
 
     font-size: 13px;
@@ -180,10 +182,10 @@
   }
 
   .traffic__wrapper-sell p {
-    margin-top: 30px;
+    margin-top: 20px;
     padding-left: 55px;
 
-    font-size: $text-traffic;
+    font-size: 13px;
     text-align: right;
     line-height: 20px;
   }

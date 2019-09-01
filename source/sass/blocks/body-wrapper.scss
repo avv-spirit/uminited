@@ -13,15 +13,16 @@
   background-color: #ffffff;
 }
 
-@media (max-width: $desktop-width) {
+/*@media (max-width: $desktop-width) {
   .body-wrapper {
     width: auto;
   }
-}
+}*/
 
 @media (max-width: $tablet-width) {
   .body-wrapper {
     width: auto;
+    margin: 0;
   }
 }
 
@@ -29,6 +30,7 @@
   .body-wrapper {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: auto;
+    margin: 0;
   }
 }
