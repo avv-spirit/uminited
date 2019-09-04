@@ -36,3 +36,35 @@
 
   width: 433px;
 }
+
+@media (max-width: $tablet-width) {
+  .publisher-score__wrapper {
+    width: 768px;
+  }
+
+  .publisher-score__text {
+    padding: 0 15px;
+    width: 50%;
+  }
+
+  .publisher-score__image {
+    width: 50%;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .publisher-score__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+
+  .publisher-score__text {
+    width: auto;
+    padding: 15px;
+  }
+
+  .publisher-score__image {
+    width: auto;
+  }
+}

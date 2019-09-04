@@ -30,6 +30,40 @@
   display: flex;
   flex-direction: column;
 
-  order: 2;
+  padding: 0 15px;
   width: 470px;
+  order: 2;
+}
+
+@media (max-width: $tablet-width) {
+  .real-time_bidding__wrapper {
+    width: 768px;
+  }
+
+  .real-time_bidding__image {
+    width: 50%;
+  }
+
+  .real-time_bidding__text {
+    padding: 0 15px;
+    width: 50%;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .real-time_bidding__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+
+  .real-time_bidding__image {
+    width: auto;
+    margin-top: 20px;
+  }
+
+  .real-time_bidding__text {
+    width: auto;
+    padding: 15px;
+  }
 }
