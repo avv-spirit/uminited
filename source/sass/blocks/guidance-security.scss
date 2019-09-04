@@ -22,13 +22,47 @@
   display: flex;
   order: 2;
 
-  width: 470px;
+  width: 50%;
 }
 
 .guidance-security__text {
   display: flex;
   flex-direction: column;
 
+  padding-left: 15px;
+  width: 50%;
   order: 1;
-  width: 470px;
+}
+
+@media (max-width: $tablet-width) {
+  .guidance-security__wrapper {
+    width: 768px;
+  }
+
+  .guidance-security__image {
+    width: 50%;
+  }
+
+  .guidance-security__text {
+    width: 50%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .guidance-security__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+
+  .guidance-security__image {
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .guidance-security__text {
+    width: auto;
+    padding: 15px;
+  }
 }
