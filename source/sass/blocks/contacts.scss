@@ -202,6 +202,10 @@
   .contacts__feedback-text {
     max-width: 515px;
   }
+
+  .contacts__reg-buttons {
+    width: 768px;
+  }
 }
 
 @media (max-width: $mobile-width) {
@@ -212,10 +216,11 @@
   .contacts__feedback-text {
     width: auto;
     padding: 010px;
+    font-size: $text-mobile;
   }
 
   .contacts__form {
-    width: auto;
+    width: 300px;
   }
 
   .contacts__form-wrapp {
@@ -223,6 +228,7 @@
   }
 
   .contacts__form-name {
+    padding-top: 10px;
     text-align: center;
   }
 
@@ -245,5 +251,18 @@
   .contacts__input-message {
     margin: 12px 10px;
     width: 90%;
+  }
+
+  .contacts__reg-buttons {
+    width: 320px;
+  }
+
+  .contacts__button-box {
+    margin-bottom: 50px;
+  }
+
+  .contacts__submit-text {
+    padding: 0 10px;
+    font-size: $text-mobile;
   }
 }

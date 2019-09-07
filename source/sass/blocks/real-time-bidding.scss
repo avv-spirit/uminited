@@ -1,7 +1,6 @@
 .real-time_bidding {
   display: flex;
   flex-direction: row;
-  /*margin: 0 auto;*/
 
   width: auto;
 
@@ -19,34 +18,38 @@
   outline: 1px solid red;
 }
 
+.real-time_bidding__title {
+  text-transform: uppercase;
+  text-align: end;
+}
+
+.real-time_bidding__description {
+  text-align: end;
+}
+
 .real-time_bidding__image {
   display: flex;
   order: 1;
 
-  width: 470px;
+  width: 50%;
 }
 
 .real-time_bidding__text {
   display: flex;
   flex-direction: column;
 
-  padding: 0 15px;
-  width: 470px;
+  padding: 50px 15px;
+  width: 50%;
   order: 2;
+}
+
+.real-time_bidding__text h2 p {
+  text-align: end;
 }
 
 @media (max-width: $tablet-width) {
   .real-time_bidding__wrapper {
     width: 768px;
-  }
-
-  .real-time_bidding__image {
-    width: 50%;
-  }
-
-  .real-time_bidding__text {
-    padding: 0 15px;
-    width: 50%;
   }
 }
 
@@ -68,6 +71,11 @@
   }
 
   .real-time_bidding__title {
+    text-align: center;
+  }
+
+  .real-time_bidding__description {
+    font-size: $text-mobile;
     text-align: center;
   }
 }

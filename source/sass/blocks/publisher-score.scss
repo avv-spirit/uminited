@@ -28,6 +28,10 @@
   width: 470px;
 }
 
+.publisher-score__title {
+  text-transform: uppercase;
+}
+
 .publisher-score__image {
   display: flex;
 
@@ -66,5 +70,14 @@
 
   .publisher-score__image {
     width: auto;
+  }
+
+  .publisher-score__title {
+    text-align: center;
+  }
+
+  .publisher-score__description {
+    font-size: $text-mobile;
+    text-align: center;
   }
 }
