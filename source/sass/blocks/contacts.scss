@@ -133,7 +133,7 @@
   text-align: center;
 }
 
-.contacts__reg-buttons {
+.contacts-reg-buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -144,7 +144,7 @@
   outline: 1px solid red;
 }
 
-.contacts__login {
+.contacts-reg-buttons__login {
   margin-right: 15px;
 
   width: 132px;
@@ -157,17 +157,17 @@
   transition-duration: 1s;
 }
 
-.contacts__login:focus {
+.contacts-reg-buttons__login:focus {
   background-color: $nav-orange;
 }
 
-.contacts__login:hover {
+.contacts-reg-buttons__login:hover {
   color: $white;
   border: 1px solid $nav-coral;
   background-color: $nav-coral;
 }
 
-.contacts__register {
+.contacts-reg-buttons__register {
   margin-left: 15px;
 
   width: 132px;
@@ -180,11 +180,11 @@
   transition-duration: 1s;
 }
 
-.contacts__register:focus {
+.contacts-reg-buttons__register:focus {
   background-color: $nav-orange;
 }
 
-.contacts__register:hover {
+.contacts-reg-buttons__register:hover {
   color: $white;
   border: 1px solid $nav-coral;
   background-color: $nav-coral;
@@ -203,7 +203,7 @@
     max-width: 515px;
   }
 
-  .contacts__reg-buttons {
+  .contacts-reg-buttons {
     width: 768px;
   }
 }
@@ -253,7 +253,7 @@
     width: 90%;
   }
 
-  .contacts__reg-buttons {
+  .contacts-reg-buttons {
     width: 320px;
   }
 
