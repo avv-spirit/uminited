@@ -64,17 +64,6 @@
   border-spacing: 0;
 }
 
-/*.smart-targeting__table-title td {
-  padding: 7px;
-  width: 100px;
-
-  border-right: 1px solid $nav-coral;
-  border-bottom: 1px solid $nav-coral;
-
-  text-align: center;
-  font-weight: bold;
-}*/
-
 .smart-targeting__table-title th {
   padding: 7px;
   width: 100px;
@@ -90,10 +79,6 @@
   border-right: none;
 }
 
-/*.smart-targeting__table-title td:last-child {
-  border-right: none;
-}*/
-
 .smart-targeting__table-description td {
   padding: 15px;
 
@@ -106,9 +91,11 @@
   border-right: none;
 }
 
-/*.smart-targeting__extratable-description {
+// Activate this table with JS
+
+.smart-targeting__extratable-description {
   display: none;
-}*/
+}
 
 .smart-targeting__wrapper-extratable {
   display: flex;
@@ -179,6 +166,8 @@
   }
 
   .smart-targeting__text {
+    margin: 0;
+    padding: 0 20px;
     width: auto;
   }
 
@@ -217,7 +206,6 @@
   .smart-targeting__table tr {
     margin-top: 5px;
     margin-bottom: 10px;
-    /*border: 2px solid #5dcecf;*/
     background-color: $white;
     border-radius: 20px;
   }
@@ -229,7 +217,6 @@
   }
 
   .smart-targeting__table-description td {
-    /* Behave  like a "row" */
     border-right: none;
     border-bottom: 1px solid #5dcecf;
     position: relative;
@@ -240,9 +227,7 @@
   }
 
   .smart-targeting__table-description td::before {
-    /* Now like a table header */
     position: absolute;
-    /* Top/left values mimic padding */
     left: 1px;
     width: 45%;
     padding-right: 10px;
@@ -276,6 +261,7 @@
   }
 
   .smart-targeting__extratable-description td {
+    display: none;
     /* Behave  like a "row" */
     border-right: none;
     border-bottom: 1px solid #5dcecf;
