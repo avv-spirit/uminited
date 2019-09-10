@@ -196,16 +196,16 @@
               <div class="contacts__form-wrapp">
                 <div class="contacts__form-name">
                   <label class="contacts__name" for="first-name"></label>
-                  <input class="contacts__input-name" type="text" name="name" id="first-name" placeholder="Name" required>
+                  <input class="contacts__input-name" type="text" name="form-name" id="first-name" placeholder="Name" required>
                 </div>
                 <div class="contacts__form-email">
                   <label class="contacts__email" for="email-line"></label>
-                  <input class="contacts__input-email" type="text" name="mail" id="email-line" placeholder="Email" required>
+                  <input class="contacts__input-email" type="text" name="form-mail" id="email-line" placeholder="Email" required>
                 </div>
               </div>
               <div class="contacts__form-message">
                 <label class="contacts__message" for="message-text"></label>
-                <textarea class="contacts__input-message" id="message-text" name="message" rows="10" cols="450" maxlength="750" placeholder="Message" required></textarea>
+                <textarea class="contacts__input-message" id="message-text" name="from-message" rows="10" cols="450" maxlength="750" placeholder="Message" required></textarea>
               </div>
             </div>
             <div class="contacts__button-box">
@@ -215,9 +215,20 @@
           </div>
         </form>
         <div class="contacts-reg-buttons">
-          <button class="contacts-reg-buttons__login" type="submit" aria-label="login">LOG IN</button>
-          <button class="contacts-reg-buttons__register" type="submit" aria-label="register">REGISTER</button>
+          <button class="contacts-reg-buttons__login" type="submit" aria-label="Login">LOG IN</button>
+          <button class="contacts-reg-buttons__register" type="submit" aria-label="Register">REGISTER</button>
         </div>
+        <form class="login-popup" action="#send-popup" method="post" id="login-form">
+          <div class="login-popup__email">
+            <label class="login-popup__email" for="popup-email"></label>
+            <input class="login-popup__input-email" type="text" name="popup-mail" id="popup-email" placeholder="Email" required>
+          </div>
+          <div class="login-popup__password">
+            <label class="login-popup__password" for="popup-password"></label>
+            <input class="login-popup__input-password" type="text" name="popup-pass" id="popup-password" placeholder="Password" required>
+          </div>
+          <button class="login-popup__btn" type="submit" aria-label="Login">LOG IN</button>
+        </form>
       </main>
       <footer class="page-footer">
         <div class="page-footer__container">
