@@ -1,166 +1,109 @@
 .login-popup {
   display: none;
-  justify-content: center;
-  position: relative;
-
-  width: auto;
 }
 
 .login-popup--show {
-  display: flex;
-  justify-content: center;
-  position: relative;
-
-  width: auto;
+  background: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
-.login-popup__wrapper {
+.login-popup__hide {
+  display: none;
+}
+
+.login-popup__open {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+
+  margin-left: -270px;
+  margin-top: -130px;
+  padding: 20px;
+  width: 500px;
+  height: 100px;
   position: absolute;
-  content: "";
-  top: -450px;
-  width: 616px;
-  background-color: $nav-coral;
+  top: 50%;
+  left: 50%;
+
+  box-sizing: content-box;
+  background: $nav-coral;
   border-radius: 25px;
-  outline: 1px solid red;
+
+  font-family: "Fira Sans", "Open Sans", sans-serif;
+  font-style: normal;
+}
+
+.login-popup__mail {
+  display: flex;
 }
 
 .login-popup__input-email {
   border: none;
   border-radius: 45px;
-  margin: 23px;
-  height: 37px;
-  width: 243px;
-  padding-left: 15px;
+  margin: 0 10px;
+  height: 40px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.login-popup__password {
+  display: flex;
 }
 
 .login-popup__input-password {
   border: none;
   border-radius: 45px;
-  margin: 23px;
-  height: 37px;
-  width: 243px;
-  padding-left: 15px;
+  margin: 0 10px;
+  height: 40px;
+  width: 100%;
+  padding: 0 15px;
 }
 
 .login-popup__btn {
-  margin-bottom: 20px;
-  width: 132px;
+  width: 100px;
   height: 37px;
 
+  margin: 0 auto;
+  margin-top: 24px;
+
   cursor: pointer;
-  border: none;
-  border-radius: 45px;
   background-color: $nav-orange;
+  border-radius: 45px;
+  border: none;
+  text-transform: uppercase;
   transition-duration: 1s;
 }
 
-/*.exclusive-platform {
-  display: flex;
-  flex-direction: row;
-
-  width: auto;
-  min-height: 460px;
-
-  outline: 1px solid blue;
+.login-popup__btn:hover {
+  background-color: #ffe9a8;
 }
 
-.exclusive-platform__wrapper {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  width: 970px;
-
-  outline: 1px solid red;
-}
-
-.exclusive-platform__wrapper-text {
-  display: flex;
-  flex-direction: column;
-  order: 1;
-  width: 50%;
-  padding-left: 15px;
-}
-
-.exclusive-platform__title {
-  margin-top: 80px;
-  text-transform: uppercase;
-}
-
-.exclusive-platform__pluses {
-  margin-left: 50px;
-  position: relative;
-}
-
-.exclusive-platform__pluses::before {
-  position: absolute;
-  content: "";
-  width: 15px;
-  height: 15px;
-  left: -40px;
-  top: calc(50% - 7.5px);
-  background-color: $nav-coral;
-  border-radius: 30px;
-}
-
-.exclusive-platform__image {
-  display: flex;
-  order: 2;
-  margin: 64px 0;
-  width: 50%;
-}
-
-@media (max-width: $tablet-width) {
-  .exclusive-platform {
-    width: auto;
-  }
-
-  .exclusive-platform__wrapper {
-    flex-direction: row;
-    width: 768px;
-  }
-
-  .exclusive-platform__wrapper-text {
-    margin: 0;
-    padding: 15px;
-    width: 50%;
-  }
-
-  .exclusive-platform__image {
-    width: 50%;
-  }
-}
+/*@media (max-width: $tablet-width) {
+}*/
 
 @media (max-width: $mobile-width) {
-  .exclusive-platform {
-    flex-direction: column;
-    width: auto;
-  }
-
-  .exclusive-platform__wrapper {
-    flex-direction: column;
-    width: 320px;
-  }
-
-  .exclusive-platform__wrapper-text {
+  .login-popup__open {
     display: flex;
     flex-direction: column;
-    order: 1;
-    margin: 0;
-    padding: 15px;
 
-    width: auto;
+    margin-left: -150px;
+    margin-top: -150px;
+    width: 260px;
+    height: 184px;
   }
 
-  .exclusive-platform__image {
-    width: auto;
-    margin-bottom: 20px;
+  .login-popup__input-email {
+    margin-top: 0;
+    margin-bottom: 10px;
   }
 
-  .exclusive-platform__main-points p {
-    font-size: $text-mobile;
+  .login-popup__input-password {
+    margin: 12px 10px;
   }
-}*/
+}
