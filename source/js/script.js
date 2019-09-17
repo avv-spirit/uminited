@@ -32,7 +32,3 @@ window.addEventListener("keydown", function (evt) {
     }
   }
 });
-
-/*document.onclick = function() {
-  document.getElementById('login-form').style.display = 'none';
-};*/
