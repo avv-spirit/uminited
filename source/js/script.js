@@ -4,7 +4,11 @@ var buttLogin = document.querySelector('.contacts-reg-buttons__login');
 var popup = document.querySelector('.login-popup');
 var entireForm = document.querySelector('.login-popup__hide');
 var inputEmail = popup.querySelector('[name=popup-mail]');
-
+//table button
+var buttTable = document.querySelector('.smart-targeting__table-button');
+var tableClass = document.querySelector('.smart-targeting__table');
+var tableSmartDefault = document.querySelector('.smart-targeting__table-description');
+var tableExtraClass = document.querySelector('.smart-targeting__extratable-description');
 
 buttLogin.addEventListener('click', function (evt) {
   evt.preventDefault();
@@ -29,6 +33,15 @@ window.addEventListener("keydown", function (evt) {
       popup.classList.remove("login-popup--show");
       entireForm.classList.remove('login-popup__open');
       entireForm.classList.add('login-popup__hide');
+      popup.classList.add('login-popup');
     }
+  }
+});
+
+buttTable.addEventListener('click', function (evt) {
+  evt.preventDefault();
+  if (tableClass.classList.contains('smart-targeting__table-title')) {
+    tableSmartDefault.classList.remove('smart-targeting__table-description');
+    tableClass.classList.add('smart-targeting__extratable-description');
   }
 });
