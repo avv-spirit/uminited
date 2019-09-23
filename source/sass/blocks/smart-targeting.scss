@@ -1,7 +1,6 @@
 .smart-targeting {
   display: flex;
   flex-direction: row;
-  /*margin: 0 auto;*/
 
   width: auto;
 
@@ -97,6 +96,10 @@
 
 .smart-targeting__extratable-description {
   display: none;
+}
+
+.smart-targeting__extratable-description--open {
+  display: table-row;
 }
 
 .smart-targeting__wrapper-extratable {
