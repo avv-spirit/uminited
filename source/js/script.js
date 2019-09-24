@@ -5,12 +5,6 @@ var popup = document.querySelector('.login-popup');
 var entireForm = document.querySelector('.login-popup__hide');
 var inputEmail = popup.querySelector('[name=popup-mail]');
 var buttClose = popup.querySelector('.login-popup__close');
-//table button
-var buttTable = document.querySelector('.smart-targeting__table-button');
-var smartTargeting = document.querySelector('.smart-targeting');
-/*var element = document.getElementById('smart-table');
-var elementTable = smartTargeting.getElementsByTagName('td');
-var table = document.querySelector('.smart-targeting__table');*/
 
 buttLogin.addEventListener('click', function (evt) {
   evt.preventDefault();
@@ -46,12 +40,5 @@ buttClose.addEventListener('click', function (evt) {
   popup.classList.add('login-popup');
   entireForm.classList.add('login-popup__hide');
 });
-
-buttTable.addEventListener('click', function (evt) {
-  evt.preventDefault();
-  alert('Doing something!')
-  /*element.classList.add("otherclass");*/
-});
-
 
 

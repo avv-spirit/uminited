@@ -1,19 +1,5 @@
-/*$(document).ready(function(){
-  $("#login-btn-popup").click(function(){
-    $('#login-form').hide();
+$(document).ready(function(){
+  $('#btn-smart').click(function(){
+    $('.smart-targeting__extratable-description').toggle();
   });
-});*/
-
-/*var el = $('.theClassThatsThereNow');
-el.addClass('newClassWithYourStyles');
-el.removeClass('theClassThatsThereNow');*/
-
-  /**/
-
-/*$('html').on('click',function(){
-  if( $('.form').is(':visible') ){
-    $('.form').hide();
-  }else{
-    $('.form').show();
-  }
-});*/
+});
