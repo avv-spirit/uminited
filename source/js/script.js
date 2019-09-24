@@ -40,5 +40,3 @@ buttClose.addEventListener('click', function (evt) {
   popup.classList.add('login-popup');
   entireForm.classList.add('login-popup__hide');
 });
-
-
