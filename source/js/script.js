@@ -6,9 +6,11 @@ var entireForm = document.querySelector('.login-popup__hide');
 var inputEmail = popup.querySelector('[name=popup-mail]');
 var buttClose = popup.querySelector('.login-popup__close');
 //table button
-/*var buttTable = document.querySelector('.smart-targeting__table-button');
-var smartTableWrapper = document.querySelector('.smart-targeting__wrapper-table');
-var smartTable = document.querySelector('.smart-targeting__table');*/
+var buttTable = document.querySelector('.smart-targeting__table-button');
+var smartTargeting = document.querySelector('.smart-targeting');
+/*var element = document.getElementById('smart-table');
+var elementTable = smartTargeting.getElementsByTagName('td');
+var table = document.querySelector('.smart-targeting__table');*/
 
 buttLogin.addEventListener('click', function (evt) {
   evt.preventDefault();
@@ -45,13 +47,11 @@ buttClose.addEventListener('click', function (evt) {
   entireForm.classList.add('login-popup__hide');
 });
 
-/*buttTable.addEventListener('click', function (evt) {
+buttTable.addEventListener('click', function (evt) {
   evt.preventDefault();
-  if (smartTableWrapper.classList.contains('smart-targeting__table')) {
-    smartTable.classList.remove('smart-targeting__extratable-description');
-    smartTable.classList.add('smart-targeting__extratable-description--open');
-  } else {
-    smartTable.classList.remove('smart-targeting__extratable-description--open');
-    smartTable.classList.add('smart-targeting__extratable-description');
-  }
-});*/
+  alert('Doing something!')
+  /*element.classList.add("otherclass");*/
+});
+
+
+

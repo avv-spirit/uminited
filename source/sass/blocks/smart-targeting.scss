@@ -98,10 +98,9 @@
   display: none;
 }
 
-.smart-targeting__extratable-description--open {
-  display: table-row;
-}
+//This above class you'll need to delete, and you need to replace extratable class
 
+//This one is now available
 .smart-targeting__wrapper-extratable {
   display: flex;
   flex-direction: column;
