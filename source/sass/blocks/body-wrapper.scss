@@ -38,6 +38,13 @@
   cursor: pointer;
 }
 
+.scroll-btn:hover {
+  width: 41px;
+  height: 41px;
+  opacity: 0.8;
+  background-size: 61%;
+}
+
 @media (max-width: $tablet-width) {
   .body-wrapper {
     width: auto;
