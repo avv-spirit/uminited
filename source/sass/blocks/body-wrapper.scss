@@ -19,6 +19,25 @@
   }
 }*/
 
+.scroll-btn {
+  display: none;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  right: 50px;
+  bottom: 30px;
+
+  border: 0;
+  border-radius: 30px;
+  background-size: 60%;
+  background-color: $nav-coral;
+  background-image: url("../../img/arrow-button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
 @media (max-width: $tablet-width) {
   .body-wrapper {
     width: auto;
