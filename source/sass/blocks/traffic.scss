@@ -8,7 +8,7 @@
 
   color: $light-black;
 
-  background-image: url("../../img/webapps-back.png");
+  background-image: url("../img/webapps-back.png");
   background-position: 50% -95px;
   background-size: auto;
   background-repeat: no-repeat;
@@ -90,12 +90,6 @@
   color: $light-black;
 }
 
-/*@media (max-width: $desktop-width) {
-  .traffic {
-    width: auto;
-  }
-}*/
-
 @media (max-width: $tablet-width) {
   .traffic {
     width: auto;
@@ -118,10 +112,6 @@
     color: $light-black;
 
     background: linear-gradient(180deg, $nav-orange 40%, $nav-coral 90%);
-    /*background-image: url("../../img/back-mobile.png");
-    background-position: 40% -95px;
-    background-size: 103%;
-    background-repeat: no-repeat;*/
   }
 
   .traffic__wrapper {

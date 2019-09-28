@@ -92,15 +92,10 @@
   border-right: none;
 }
 
-// Activate this table with JS
-
 .smart-targeting__extratable-description {
   display: none;
 }
 
-//This above class you'll need to delete, and you need to replace extratable class
-
-//This one is now available
 .smart-targeting__wrapper-extratable {
   display: flex;
   flex-direction: column;
@@ -132,7 +127,7 @@
 
   cursor: pointer;
 
-  background-image: url("../../img/arrow-button.svg");
+  background-image: url("../img/arrow-button.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 27px;
@@ -149,10 +144,6 @@
 .smart-targeting__table-button:hover {
   box-shadow: 0 0 50px $nav-coral;
 }
-
-/*.smart-targeting__table-button:active {
-  transform: rotate(180deg);
-}*/
 
 @media (max-width: $tablet-width) {
   .smart-targeting__table {
